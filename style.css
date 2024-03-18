@@ -9,9 +9,14 @@
     display: flex;
 }
 
+.w-60 {
+    width: 60%;
+    margin: 0 auto;
+}
 
 .debug .bg-blu-home-page,
-.debug .bg-white-home-page {
+.debug .bg-white-home-page,
+.debug .business-choice div {
     min-height: 150px;
 }
 
@@ -71,4 +76,20 @@ header a {
 .img-home-page {
     width: 70%;
     background-color: grey;
+}
+
+/* +++++++++++++++++++++++ PIANO BUSINESS STYLE +++++++++++++++++++++++ */
+.business-box {
+    background-color: yellow;
+}
+
+.business-choice {
+    /* display: flex; */
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.business-choice div {
+    width: calc(100% / 3);
+    border: 1px solid black;
 }
