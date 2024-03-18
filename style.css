@@ -10,8 +10,9 @@
 }
 
 
-.debug {
-    min-height: 30px;
+.debug .bg-blu-home-page,
+.debug .bg-white-home-page {
+    min-height: 150px;
 }
 
 /* +++++++++++++++++++++++ HEADER STYLE +++++++++++++++++++++++ */
@@ -39,3 +40,35 @@ header a {
 }
 
 /* +++++++++++++++++++++++ HEADER STYLE +++++++++++++++++++++++ */
+.home-page {
+    position: relative;
+}
+
+.bg-blu-home-page {
+    width: 100%;
+    background-color: green;
+}
+
+.bg-white-home-page {
+    width: 100%;
+    background-color: blueviolet;
+}
+
+.container-home-page {
+    position: absolute;
+    top: 1rem;
+    left: calc(30% / 2);
+    width: 70%;
+    height: 180px;
+    background-color: red;
+}
+
+.testo-btn {
+    width: 30%;
+    background-color: yellow;
+}
+
+.img-home-page {
+    width: 70%;
+    background-color: grey;
+}
