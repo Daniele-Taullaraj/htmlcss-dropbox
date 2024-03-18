@@ -13,6 +13,7 @@
 .w-55 {
     width: 55%;
     margin: 0 auto;
+    max-width: 1000px;
 }
 
 .button-blue {
@@ -73,7 +74,7 @@ main {
 }
 
 .bg-blu-home-page {
-    height: 90%;
+    height: 85%;
     width: 100%;
     background-color: #B4D0E7;
     position: absolute;
@@ -81,7 +82,7 @@ main {
 }
 
 .bg-white-home-page {
-    height: 10%;
+    height: 15%;
     width: 100%;
     background-color: blueviolet;
     position: absolute;
@@ -156,16 +157,15 @@ form h1 {
 }
 
 .business {
-    position: relative;
     width: calc(96% / 3);
     border: 1px solid black;
 }
 
 .destinatario {
-    position: absolute;
+    display: inline-block;
     width: 100%;
     text-align: center;
-    border: 1px solid black;
+    border-bottom: 1px solid black;
     padding: 0.5rem;
     background-color: red;
 }
@@ -175,8 +175,7 @@ form h1 {
 }
 
 .inner-business {
-    /* margin-top: 4rem; */
-    padding: 4rem 2rem;
+    padding: 2rem 2rem;
     /* display: flex; */
     flex-direction: column;
 }
@@ -214,4 +213,33 @@ form h1 {
 
 .fa-check {
     color: blue;
+}
+
+
+
+.office-contact {
+    margin-top: 1rem;
+    background-color: green;
+}
+
+.office-contact>p {
+    text-align: center;
+    border: 1px solid black;
+    padding: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.right-inner-office-contact {
+    width: 45%;
+    margin-left: 2rem;
+}
+
+.left-inner-office-contact h2 {
+    margin-bottom: 1rem;
+}
+
+.left-inner-office-contact span {
+    display: inline-block;
+    margin-bottom: 2.5rem;
+    font-weight: bold;
 }
