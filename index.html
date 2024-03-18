@@ -4,6 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+Khojki&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4df03cc4a0.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <title>Dropbox</title>
 </head>
@@ -12,21 +18,24 @@
     <!-- header -->
     <header class="flex">
 
-        <div class="left-header flex">
-            <img src="./img/logo.svg" alt="">
+        <div class="left-header flex ">
+            <img src="./img/logo.svg" alt="logo">
             <div class="link-left-header">
-                <a href="#">a</a>
-                <a href="#">a</a>
-                <a href="#">a</a>
+                <a href="#">Perchè Dropbox</a>
+                <a href="#">Funzioni</a>
+                <a href="#">Piani e Prezzi</a>
             </div>
         </div>
 
         <div class="right-header flex">
-            <a href="#">a</a>
-            <a href="#">a</a>
-            <a href="#">a</a>
-            <button>inizia</button>
+            <div class="link-right-header">
+                <a href="#">Supporto</a>
+                <a href="#">Contatta l'ufficio</a>
+                <a href="#">Accedi</a>
+            </div>
+            <button class="button-blue">inizia</button>
         </div>
+
     </header>
 
     <main>
@@ -39,31 +48,59 @@
 
             <!-- contenuto home-page -->
             <div class="container-home-page">
-                <h1>lalalalala</h1>
-                <div class="text-foto-home-page flex">
-                    <div class="testo-btn">lore</div>
-                    <div class="img-home-page">s</div>
+                <h1>Tutto ciò che ti serve per il lavoro, in un unico posto</h1>
+                <div class="bottom-home-page flex">
+                    <div class="text-btn-home-page">
+                        <p>Finalmente tutti i tuoi strumenti,contenuti e collaboratori sono accessibili dallo stesso
+                            posto.</p>
+                        <p>Dropbox Business è più di uno spazio di archiviazione sicuro: è un modo intelligente e
+                            integrato per ottimizare il flusso di lavoro</p>
+                        <button class="button-blue">Inizia la tua prova gratuita</button>
+                        <a href="#">Annulla in qualsiasi momento</a>
+                        <a href="#"><i class="fa-solid fa-arrow-down"></i></a>
+                    </div>
+                    <div class="img-home-page">
+                        <img src="./img/item3.svg" alt="">
+                    </div>
                 </div>
             </div>
         </section>
 
         <!-- piano business -->
-        <section class="business-box w-60">
+        <section class="business-box w-55">
 
             <!-- h1 + radio input -->
             <form action="#">
-                <h1>dasdsads</h1>
-                <input type="radio">fdsfafd
-                <input type="radio">fdsfafd
+                <h1>Trova il piano business che fa per te</h1>
+                <input type="radio" name="fatturazione"><span id="f-mensile">Fatturazione mensile</span>
+                <input type="radio" name="fatturazione">Fatturazione annuale
             </form>
-
+            <!-- flex container  -->
             <div class="business-choice flex">
-                <div class="business-singolo">lore</div>
-                <div class="business-advanced">a</div>
-                <div class="business-enterprise">a</div>
+                <!-- card choice -->
+                <div class="business">
+                    <span class="destinatario"><i class="fa-solid fa-user"></i>Singolo</span>
+                    <div class="inner-business flex">
+                        <h2>Professional</h2>
+                        <span>£ 12.00</span>
+                        <span class="span-grigio">/mese</span>
+                        <p><i class="fa-solid fa-user"></i>1 utente</p>
+                        <p><i class="fa-solid fa-folder"></i>5 TB di spazio di archiviazione </p>
+                        <p><i class="fa-solid fa-share-nodes"></i>Funzioni di produttività premium e condivisone file
+                            semplice e sicura</p>
+                        <button class="button-blue">Prova gratis per 30 giorni</button>
+                        <p>oppure <a href="#">acquista ora</a></p>
+                        <span class="riga"></span>
+                        <h4>Punti Salienti del piano</h4>
+                        <p><i class="fa-solid fa-check"></i>Invia file fino a 100GB con Dropbox Transfer</p>
+                        <p><i class="fa-solid fa-check"></i>Cartelle offline su dispositivi mobili</p>
+                    </div>
+                </div>
+                <div class="business">a</div>
+                <div class="business">a</div>
             </div>
 
-            <div class="office-contact">s</div>
+            <div class="office-contact"></div>
         </section>
 
         <!-- trova partner -->
