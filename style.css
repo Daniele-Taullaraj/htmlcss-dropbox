@@ -219,12 +219,13 @@ form h1 {
 
 .office-contact {
     margin-top: 1rem;
+    border: 1px solid black;
     background-color: green;
 }
 
 .office-contact>p {
     text-align: center;
-    border: 1px solid black;
+    border-bottom: 1px solid black;
     padding: 0.5rem;
     margin-bottom: 1.5rem;
 }
@@ -242,4 +243,39 @@ form h1 {
     display: inline-block;
     margin-bottom: 2.5rem;
     font-weight: bold;
+}
+
+/* +++++++++++++++++++++++ TROVA PARTNER STYLE +++++++++++++++++++++++ */
+
+.find-partner {
+    margin: 4rem auto;
+    background-color: blue;
+}
+
+.left-box-50 {
+    width: 60%;
+}
+
+.left-box-50 img {
+    object-fit: cover;
+    width: 100%;
+    display: block;
+    margin: 0;
+}
+
+.right-box-50 {
+    width: 40%;
+    /* display: flex; */
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+}
+
+.right-box-50 p {
+    margin: 1.5rem 0;
+}
+
+.white-button {
+    padding: 0.5rem 1rem;
 }
