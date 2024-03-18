@@ -1,5 +1,41 @@
+/* +++++++++++++++++++++++ COMMON STYLE +++++++++++++++++++++++ */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+
+.flex {
+    display: flex;
+}
+
+
+.debug {
+    min-height: 30px;
+}
+
+/* +++++++++++++++++++++++ HEADER STYLE +++++++++++++++++++++++ */
+
+header {
+    /* display: flex; */
+    justify-content: space-between;
+    align-items: center;
+    background-color: aqua;
+}
+
+.left-header {
+    /* display: flex; */
+    align-items: center;
+    background-color: blue;
+}
+
+.right-header {
+    background-color: green;
+}
+
+header a {
+    background-color: red;
+    padding: 0.5rem;
+}
+
+/* +++++++++++++++++++++++ HEADER STYLE +++++++++++++++++++++++ */
