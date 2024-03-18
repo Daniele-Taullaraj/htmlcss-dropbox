@@ -279,3 +279,30 @@ form h1 {
 .white-button {
     padding: 0.5rem 1rem;
 }
+
+/* +++++++++++++++++++++++ CLIENTI DROPBOX STYLE +++++++++++++++++++++++ */
+.box-clienti a {
+    color: blue;
+    margin: 2rem 0 5rem;
+    display: inline-block;
+}
+
+
+/* +++++++++++++++++++++++ PROVA GRATUITA STYLE +++++++++++++++++++++++ */
+.sez-prove {
+    background-color: yellow;
+}
+
+.free-prove {
+    background-color: red;
+    padding: 5rem 0;
+}
+
+.free-prove h1 {
+    width: 40%;
+    /* padding: 5rem 0; */
+}
+
+.free-prove div {
+    margin-left: 5rem;
+}
