@@ -6,6 +6,10 @@
     font-family: "Open Sans", sans-serif;
 }
 
+main {
+    padding-top: 3rem;
+}
+
 .flex {
     display: flex;
 }
@@ -35,10 +39,11 @@ header {
     z-index: 1;
     width: 100%;
     height: 3rem;
+    background-color: white;
     /* display: flex; */
     justify-content: space-between;
     align-items: center;
-    background-color: white;
+    ;
 }
 
 .left-header,
@@ -48,26 +53,21 @@ header {
 }
 
 img {
-    background-color: black;
-    margin: 0 1rem;
+    margin: 1rem;
 }
 
 header a {
     text-decoration: none;
     color: black;
     font-size: 0.7rem;
-    padding: 0.8rem 0.5rem 0.8rem;
+    padding: 0.8rem 0.5rem;
 }
 
 .right-header button {
     margin: 0 0.5rem;
 }
 
-
 /* +++++++++++++++++++++++ HOME PAGE STYLE +++++++++++++++++++++++ */
-main {
-    padding-top: 3rem;
-}
 
 .home-page {
     position: relative;
@@ -92,9 +92,10 @@ main {
 /* ???????  */
 .container-home-page {
     position: relative;
+    max-width: 1400px;
     width: 70%;
     margin: 0 auto;
-    background-color: red;
+    /* background-color: red; */
 }
 
 .container-home-page h1 {
@@ -104,7 +105,7 @@ main {
 
 .text-btn-home-page {
     width: 30%;
-    background-color: yellow;
+    /* background-color: yellow; */
 }
 
 .text-btn-home-page button {
@@ -125,17 +126,19 @@ main {
 
 .img-home-page {
     width: 70%;
-    background-color: grey;
+    /* background-color: grey; */
 }
 
 .img-home-page img {
+    width: 100%;
     height: 100%;
+    object-fit: cover;
     margin: 0;
 }
 
 /* +++++++++++++++++++++++ PIANO BUSINESS STYLE +++++++++++++++++++++++ */
 .business-box {
-    background-color: yellow;
+    /* background-color: yellow; */
     margin-top: 3rem;
 }
 
@@ -167,7 +170,7 @@ form h1 {
     text-align: center;
     border-bottom: 1px solid black;
     padding: 0.5rem;
-    background-color: red;
+    /* background-color: red; */
 }
 
 .destinatario i {
@@ -180,9 +183,15 @@ form h1 {
     flex-direction: column;
 }
 
+
 .span-grigio {
     color: grey;
     margin-bottom: 2rem;
+}
+
+.span-prezzo {
+    font-weight: bold;
+    padding: 0.5rem 0;
 }
 
 .inner-business p {
@@ -191,13 +200,15 @@ form h1 {
 
 .inner-business i {
     margin-right: 0.5rem;
+    padding-top: 0.2rem;
 }
 
 .inner-business button {
     margin: 1.5rem 0;
 }
 
-.inner-business p a {
+.inner-business p a,
+.fa-check {
     color: blue;
 }
 
@@ -211,16 +222,13 @@ form h1 {
     margin: 1.5rem 0 3rem;
 }
 
-.fa-check {
-    color: blue;
-}
-
 
 
 .office-contact {
     margin-top: 1rem;
+    padding-bottom: 2rem;
     border: 1px solid black;
-    background-color: green;
+    /* background-color: green; */
 }
 
 .office-contact>p {
@@ -231,8 +239,11 @@ form h1 {
 }
 
 .right-inner-office-contact {
-    width: 45%;
-    margin-left: 2rem;
+    width: 40%;
+}
+
+.left-inner-office-contact {
+    padding-left: 2rem;
 }
 
 .left-inner-office-contact h2 {
@@ -248,43 +259,81 @@ form h1 {
 /* +++++++++++++++++++++++ TROVA PARTNER STYLE +++++++++++++++++++++++ */
 
 .find-partner {
-    margin: 4rem auto;
+    margin: 6rem auto 8rem;
     background-color: blue;
 }
 
-.left-box-50 {
+.left-box-60 {
     width: 60%;
 }
 
-.left-box-50 img {
+.left-box-60 img {
     object-fit: cover;
     width: 100%;
+    height: 100%;
     display: block;
     margin: 0;
 }
 
-.right-box-50 {
+.right-box-40 {
     width: 40%;
     /* display: flex; */
     flex-direction: column;
     align-items: flex-start;
-    margin-top: 1.5rem;
+    margin-top: 2.5rem;
     margin-left: 1rem;
 }
 
-.right-box-50 p {
+.right-box-40 p {
     margin: 1.5rem 0;
 }
 
 .white-button {
     padding: 0.5rem 1rem;
+    background-color: white;
 }
+
+
+/* +++++++++++++++++++++++ OPERAZIONI STYLE +++++++++++++++++++++++ */
+.operazioni-drop h1 {
+    font-size: 2rem;
+}
+
+.container-card {
+    margin: 4rem 0 10rem;
+    /* display: flex; */
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* background-color: violet; */
+}
+
+.inner-card {
+    width: 32%;
+    padding-bottom: 4rem;
+    /* background-color: yellow; */
+}
+
+.inner-card img {
+    width: 100%;
+    display: block;
+    margin: 0;
+}
+
+.inner-card h2 {
+    margin: 1rem 0;
+    font-size: 1.2rem;
+}
+
 
 /* +++++++++++++++++++++++ CLIENTI DROPBOX STYLE +++++++++++++++++++++++ */
 .box-clienti a {
     color: blue;
     margin: 2rem 0 5rem;
     display: inline-block;
+}
+
+.box-clienti h1 {
+    font-size: 2rem
 }
 
 
