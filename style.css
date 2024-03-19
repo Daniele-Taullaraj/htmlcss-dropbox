@@ -20,6 +20,35 @@ main {
     max-width: 1000px;
 }
 
+
+.bg-verde-acqua {
+    background-color: #A2D39B;
+}
+
+.bg-marrone-rosso {
+    background-color: #61082B;
+}
+
+.bg-azzurro {
+    background-color: #0093CE;
+}
+
+.bg-rosso {
+    background-color: #FF1C1C;
+}
+
+.bg-blue {
+    background-color: #0D2481;
+}
+
+.bg-azzurro-chiaro {
+    background-color: #B4D0E7;
+}
+
+.bg-giallo {
+    background-color: #FFD830;
+}
+
 .button-blue {
     background-color: #0061FF;
     color: white;
@@ -84,7 +113,7 @@ header a {
 .bg-white-home-page {
     height: 15%;
     width: 100%;
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
     position: absolute;
     bottom: 0;
 }
@@ -260,7 +289,7 @@ form h1 {
 
 .find-partner {
     margin: 6rem auto 8rem;
-    background-color: blue;
+    /* background-color: blue; */
 }
 
 .left-box-60 {
@@ -328,7 +357,7 @@ form h1 {
 /* +++++++++++++++++++++++ CLIENTI DROPBOX STYLE +++++++++++++++++++++++ */
 .box-clienti a {
     color: blue;
-    margin: 2rem 0 5rem;
+    margin: 2rem 0 8rem;
     display: inline-block;
 }
 
@@ -336,22 +365,91 @@ form h1 {
     font-size: 2rem
 }
 
+/* +++++++++++++++++++++++ PARTNERSHIP STYLE +++++++++++++++++++++++ */
+.partner-box {
+    max-width: 2500px;
+    margin: auto;
+    /* display: flex; */
+}
+
+.box-3 {
+    width: calc(100% / 3);
+    /* display: flex; */
+    flex-wrap: wrap;
+    height: 50vh;
+}
+
+.partnership-img {
+    /* display: flex; */
+    width: 50%;
+    height: 50%;
+}
+
+.partnership-img img {
+    width: 50%;
+    margin: auto;
+    filter: invert();
+}
+
+.center-partner-box {
+    padding: 1rem 2rem;
+    font-size: 0.7rem;
+}
+
+.center-img {
+    width: 50%;
+    margin-bottom: 1rem;
+}
+
+#autore {
+    display: block;
+    margin-top: 2rem;
+}
 
 /* +++++++++++++++++++++++ PROVA GRATUITA STYLE +++++++++++++++++++++++ */
-.sez-prove {
-    background-color: yellow;
+.box-prova {
+    max-width: 2500px;
+    margin-bottom: 6rem;
 }
 
 .free-prove {
-    background-color: red;
-    padding: 5rem 0;
+    padding: 5rem 0 5rem 7rem;
 }
 
 .free-prove h1 {
     width: 40%;
-    /* padding: 5rem 0; */
+    color: #61082B;
 }
 
-.free-prove div {
+.free-prove button {
+    border: 0;
     margin-left: 5rem;
+}
+
+/* +++++++++++++++++++++++ INFO STYLE +++++++++++++++++++++++ */
+.info-box h1 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.domanda {
+    /* display: flex; */
+    justify-content: space-between;
+    padding: 2rem 0;
+    border-top: 1px solid black;
+    font-weight: bold;
+}
+
+.risposta {
+    display: none;
+}
+
+.answer-box:hover .risposta {
+    display: block;
+
+}
+
+.border-bottom {
+    border-bottom: 1px solid black;
+    margin-bottom: 8rem;
 }
