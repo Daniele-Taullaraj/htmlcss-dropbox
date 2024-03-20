@@ -376,13 +376,18 @@ form h1 {
     width: calc(100% / 3);
     /* display: flex; */
     flex-wrap: wrap;
-    height: 50vh;
+    height: 60vh;
 }
 
 .partnership-img {
     /* display: flex; */
     width: 50%;
     height: 50%;
+    /* aspect-ratio: 1; */
+}
+
+.partnership-img:hover {
+    border: 1rem solid rgba(0, 0, 0, 0.1);
 }
 
 .partnership-img img {
@@ -409,6 +414,7 @@ form h1 {
 /* +++++++++++++++++++++++ PROVA GRATUITA STYLE +++++++++++++++++++++++ */
 .box-prova {
     max-width: 2500px;
+    margin: 0 auto;
     margin-bottom: 6rem;
 }
 
@@ -452,4 +458,46 @@ form h1 {
 .border-bottom {
     border-bottom: 1px solid black;
     margin-bottom: 8rem;
+}
+
+/* +++++++++++++++++++++++ FOOTER STYLE +++++++++++++++++++++++ */
+footer {
+    background-color: black;
+    padding: 5rem 0;
+}
+
+.inner-footer {
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 5rem;
+    /* display: flex; */
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.colonna-footer h3 {
+    color: white;
+    margin-bottom: 2rem;
+}
+
+.colonna-footer a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 200;
+    line-height: 2rem;
+}
+
+.riga-footer {
+    margin-left: 15%;
+    color: white;
+    width: 5%;
+    border: 1px solid grey;
+}
+
+footer p {
+    margin-left: 15%;
+    margin-top: 2rem;
+    color: grey;
 }
